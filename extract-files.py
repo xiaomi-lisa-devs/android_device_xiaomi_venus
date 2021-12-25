@@ -29,6 +29,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/etc/camera/pureShot_parameter.xml': blob_fixup()
+        .regex_replace(r'=(\d+)>', r'="\1">'),
     'vendor/lib/hw/audio.primary.venus.so': blob_fixup()
         .replace_needed('/vendor/lib/liba2dpoffload.so', '/odm/lib/liba2dpoffload.so')
         .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so')
