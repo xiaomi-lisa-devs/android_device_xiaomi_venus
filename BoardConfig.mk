@@ -11,6 +11,9 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := venus
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
+
 # Display
 TARGET_SCREEN_DENSITY := 560
 
