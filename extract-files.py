@@ -9,9 +9,17 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+    'hardware/qcom-caf/sm8350',
+    'hardware/xiaomi',
+    'vendor/qcom/opensource/display',
+    'vendor/xiaomi/sm8350-common',
+]
+
 module = ExtractUtilsModule(
     'venus',
     'xiaomi',
+    namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
