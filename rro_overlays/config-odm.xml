@@ -4,6 +4,7 @@
 -->
 <config>
     <overlay package="android.overlay.venus" mutable="false" enabled="true" />
+    <overlay package="android.overlay.sm8350.udfps" mutable="false" enabled="true" />
     <overlay package="com.android.settings.overlay.venus" mutable="false" enabled="true" />
     <overlay package="com.android.providers.settings.overlay.venus" mutable="false" enabled="true" />
     <overlay package="com.android.systemui.overlay.venus" mutable="false" enabled="true" />
