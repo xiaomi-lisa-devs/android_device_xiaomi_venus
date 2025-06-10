@@ -4,6 +4,7 @@
 #
 
 TARGET_HAS_UDFPS := true
+TARGET_HAS_POWERSHARE := true
 
 # Inherit from sm8350-common
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
