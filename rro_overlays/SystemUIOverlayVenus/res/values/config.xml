@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">57px</dimen>
-
     <!-- Location on the screen of the center of the physical power button. This is a reasonable
     default that should be overridden by device-specific overlays. -->
     <dimen name="physical_power_button_center_screen_location_y">1380px</dimen>
